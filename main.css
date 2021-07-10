@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200;400;700&display=swap");
+:root {
+  --primary-color: #007af3;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: 'Encode Sans SC';
+  margin: 0;
+}
+
+.navbar {
+  padding: 1em;
+  background: white;
+}
+
+.navbar .logo {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar .mobile-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+a {
+  color: #525252;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: .2em;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .subhead {
+  color: #8a8989;
+  text-shadow: .2em;
+  font-weight: bold;
+  letter-spacing: .2em;
+}
+
+.hero .primary-cta {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  font-size: 1.2em;
+  font-weight: bold;
+  display: inline-block;
+  padding: .5em .5em;
+  margin-left: .5em;
+  color: white;
+  border-radius: 10em;
+}
+
+.hero .watch-video-cta {
+  display: block;
+  margin-top: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero img {
+  margin-right: .4em;
+  width: 10%;
+}
+
+.hero .hero-img {
+  margin-top: 2em;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
